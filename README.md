@@ -1,7 +1,7 @@
 # MA-EgoQA: Multi-Agent Egocentric Video Question Answering
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://ma-egoqa.github.io)
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.09827-b31b1b.svg)](https://arxiv.org/abs/2603.09827)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-orange)](https://huggingface.co/datasets/KangsanKim71/MA-EgoQA)
 
 ## Overview
