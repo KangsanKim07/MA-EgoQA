@@ -42,6 +42,39 @@ We propose **EgoMAS** (Egocentric Multi-Agent System), a training-free baseline 
   <img src="assets/egomas.png" width="80%" alt="EgoMAS Method Figure"/>
 </p>
 
+## Run EgoMAS
+
+### 1. Clone the Repository and Install
+```sh
+git clone https://github.com/KangsanKim07/MA-EgoQA.git
+cd MA-EgoQA
+pip install -r requirements.txt
+```
+
+### 2. Download the MA-EgoQA dataset from HuggingFace to the `data/` directory
+```sh
+huggingface-cli download KangsanKim71/MA-EgoQA --local-dir data --repo-type dataset
+```
+
+### 3. Construct Event-based Shared Memory with 10-min Window
+```sh
+python egomas/src/construct_shared_memory.py
+```
+
+### 4. Index Captions with BM25
+```sh
+python index_bm25.py
+```
+
+### 5. Inference EgoMAS with Agent-wise Dynamic Retrieval
+```sh
+python inference_egomas.py  # Multi-process
+```
+You can run EgoMAS with a single process by run:
+```sh
+python inference_egomas_singleproc.py
+```
+
 ---
 
 ## Citation
