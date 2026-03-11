@@ -80,12 +80,13 @@ python inference_egomas_singleproc.py
 ## Citation
 
 ```bibtex
-@inproceedings{kim2026maegoqa,
-  title     = {Multi-Agent Egocentric Video Question Answering},
-  author    = {Kim, Kangsan and Yang, Yanlai and Kim, Suji and Yeo, Woongyeong and
-               Lee, Youngwan and Ren, Mengye and Hwang, Sung Ju},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2026},
-  url       = {https://github.com/KangsanKim07/MA-EgoQA}
+@misc{kim2026maegoqa,
+    title={MA-EgoQA: Question Answering over Egocentric Videos from Multiple Embodied Agents}, 
+    author={Kangsan Kim and Yanlai Yang and Suji Kim and Woongyeong Yeo and Youngwan Lee and Mengye Ren and Sung Ju Hwang},
+    year={2026},
+    eprint={2603.09827},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2603.09827}, 
 }
 ```
