@@ -16,7 +16,7 @@ MA-EgoQA is built on the [EgoLife](https://egolife-dataset.github.io/) dataset, 
 
 ---
 
-## Benchmark
+## MA-EgoQA Benchmark
 
 ### Five Question Categories
 
