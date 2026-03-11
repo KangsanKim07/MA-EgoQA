@@ -29,7 +29,7 @@ MA-EgoQA is built on the [EgoLife](https://egolife-dataset.github.io/) dataset, 
 | Environmental Interaction | EI | Tracking distributed object usage across agents |
 
 <p align="center">
-  <img src="assets/example.png" width="80%" alt="MA-EgoQA QA Examples"/>
+  <img src="assets/examples.png" width="80%" alt="MA-EgoQA QA Examples"/>
 </p>
 
 ---
